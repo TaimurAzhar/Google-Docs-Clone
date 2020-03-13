@@ -10,6 +10,7 @@ export const GroupEditor: React.FC<RouteComponentProps<{ id: string }>> = ({
   return (
     <div>
       <SyncingEditor groupId={id} />
+      <SyncingEditor groupId={id} />
     </div>
   );
 };
